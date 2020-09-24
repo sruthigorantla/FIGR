@@ -14,7 +14,7 @@ export LD_PRELOAD=libGLX_mesa.so.0 	#very dirty hack to workaround this octave b
 
 TIMESTAMP=`date +%Y-%m-%d_%H%M%S`
 GIT_ROOT="$(git rev-parse --show-toplevel)"
-GIT_ROOT=$GIT_ROOT"/FIGR_and_baselines"
+GIT_ROOT=$GIT_ROOT"/FIGR"
 PATH_TO_EXECUTABLE_DELTR=$GIT_ROOT/deltr-src
 PATH_TO_EXECUTABLE_LISTNET=$GIT_ROOT/listnet-src
 PATH_TO_CHILE_NOSEMI_DATASETS=$GIT_ROOT/data/EngineeringStudents/NoSemiPrivate
