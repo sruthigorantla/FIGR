@@ -10,7 +10,7 @@ This repository consists of code and datasets for our paper. We extend the code 
 ### Preprocessing training data
 The bashscript in the root folder pre-processes the ChileSAT data with FIGR and FA\*IR
 
-**preprocess.sh:** pre-processes the training data.
+``preprocess.sh`` pre-processes the training data.
 
 ### Model Training
 
@@ -31,7 +31,7 @@ This script also copies the prediction files from the DELTR experiment with Gamm
 
 The root directory contains bash-script for post-processing LTR predictions on ChileSAT test data with FIGR and also FA\*IR (Baseline)
 
-**postprocess.sh** 
+``postprocess.sh`` 
 
 
 ## Directly applying fair post-processing (re-ranking) methods on the German credit risk and the COMPAS recidivism datasets
@@ -40,10 +40,10 @@ The root directory contains bash-script for post-processing LTR predictions on C
 
 This bash-script re-ranks the true rankig using FIGR and also FA*IR (Baseline)
 
-**postprocessTrueRanking.sh**
+``postprocessTrueRanking.sh``
 
 ## Result Evaluation
 
 The bash-script evaluates results on all three datasets.
 
-**evaluateResults.sh**
+``evaluateResults.sh``
