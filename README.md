@@ -38,7 +38,7 @@ This script also copies the prediction files from the DELTR experiment with Gamm
 
 The root directory contains bash-script for post-processing LTR predictions on ChileSAT test data with FIGR and also FA\*IR (Baseline)
 
-**postprocess.sh:** 
+**postprocess.sh** 
 
 
 ## Directly applying fair post-processing (re-ranking) methods on the German credit risk and the COMPAS recidivism datasets.
