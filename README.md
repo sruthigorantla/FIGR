@@ -1,5 +1,5 @@
 # FIGR algorithm and comparision with baselines.
-This repository consists of code and datasets used in our paper. We extend the code of [DELTR](https://github.com/MilkaLichtblau/DELTR-Experiments) and [FA\*IR](https://github.com/fair-search) to compare our work with these algorithms as baselines.
+This repository consists of code and datasets for our paper. We extend the code of [DELTR](https://github.com/MilkaLichtblau/DELTR-Experiments) and [FA\*IR](https://github.com/fair-search) to compare our work with these algorithms as baselines.
 
 
 ## Requirements
