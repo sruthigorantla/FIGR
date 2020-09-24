@@ -1,5 +1,5 @@
 # FIGR algorithm and comparision with baselines.
-This repository consists of code and datasets used in our paper. We extend the code of DELTR and FA\*IR to compare our work with these algorithms as baselines.
+This repository consists of code and datasets used in our paper. We extend the code of [DELTR](https://github.com/MilkaLichtblau/DELTR-Experiments) and [Fair Search](https://github.com/fair-search) to compare our work with these algorithms as baselines.
 
 
 ## Requirements
@@ -16,7 +16,7 @@ The bashscript in the root folder pre-processes the ChileSAT data with FIGR and 
 
 For ChileSAT dataset a bash-script named ``trainEngineering.sh`` is available that trains models for all experimental settings and saves them into ``results/EngineeringStudents/NoSemiPrivate/PROTECTED-ATTRIBUTE/FOLD/EXPERIMENTAL-SETTING/model.m``. 
 
-Training parameters like learning rate or number of iterations can be changed in [``listnet-src/globals.m``](https://github.com/sruthigorantla/FIGR/listnet-src/globals.m) and [``deltr-src/globals.m``](https://github.com/sruthigorantla/FIGR/deltr-src/globals.m). 
+Training parameters like learning rate or number of iterations can be changed in [``listnet-src/globals.m``](https://github.com/sruthigorantla/FIGR/tree/master/listnet-src/globals.m) and [``deltr-src/globals.m``](https://github.com/sruthigorantla/FIGR/tree/master/deltr-src/globals.m). 
 
 The parameter $\gamma$ for DELTR is set in a command line argument.
 The parameters $k$ and $\alpha$ for FIGR are also set in command line arguments.
