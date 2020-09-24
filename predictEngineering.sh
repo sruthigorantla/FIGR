@@ -10,7 +10,7 @@ trap 'last_command=$current_command; current_command=$BASH_COMMAND' DEBUG
 trap 'echo "\"${last_command}\" command filed with exit code $?."' EXIT
 
 GIT_ROOT="$(git rev-parse --show-toplevel)"
-GIT_ROOT=$GIT_ROOT"/FIGR_and_baselines"
+GIT_ROOT=$GIT_ROOT"/FIGR"
 PATH_TO_EXECUTABLE_DELTR=$GIT_ROOT/deltr-src
 PATH_TO_EXECUTABLE_LISTNET=$GIT_ROOT/listnet-src
 PATH_TO_ENGINEERING_DATASET=$GIT_ROOT/data/EngineeringStudents/NoSemiPrivate
