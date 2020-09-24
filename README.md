@@ -18,8 +18,8 @@ For ChileSAT dataset a bash-script named ``trainEngineering.sh`` is available th
 
 Training parameters like learning rate or number of iterations can be changed in [``listnet-src/globals.m``](https://github.com/sruthigorantla/FIGR/tree/master/listnet-src/globals.m) and [``deltr-src/globals.m``](https://github.com/sruthigorantla/FIGR/tree/master/deltr-src/globals.m). 
 
-The parameter $\gamma$ for DELTR is set in a command line argument.
-The parameter $k$ for FIGR is also set in a command line arguments.
+The parameter $$\gamma$$ for DELTR is set in a command line argument.
+The parameter $$k$$ for FIGR is also set in a command line arguments.
 
 ### Predictions
 
