@@ -5,7 +5,7 @@ This repository consists of code and datasets used in our paper. We extend the c
 ## Requirements
 ``octave-general`` and ``octave-parallel``
 
-## <font color="blue">LTR models on the ChileSAT dataset</font>
+## Fair LTR on the ChileSAT dataset
 
 ### Preprocessing training data
 The bashscript in the root folder pre-processes the ChileSAT data with FIGR and FA\*IR
@@ -34,7 +34,7 @@ The root directory contains bash-script for post-processing LTR predictions on C
 **postprocess.sh** 
 
 
-## <font color="blue">Directly applying fair post-processing (re-ranking) methods on the German credit risk and the COMPAS recidivism datasets.</font>
+## Directly applying fair post-processing (re-ranking) methods on the German credit risk and the COMPAS recidivism datasets
 
 ### post-processing the true ranking in the dataset.
 
