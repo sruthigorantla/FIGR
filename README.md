@@ -1,5 +1,5 @@
 # Ranking for Individual and Group Fairness Simultaneously (FIGR).
-This repository consists of code and datasets for our paper. We extend the code of [DELTR](https://github.com/MilkaLichtblau/DELTR-Experiments) and [FA\*IR](https://github.com/fair-search) to compare our work with these algorithms as baselines.
+This repository consists of code and datasets for [our paper](https://arxiv.org/pdf/1907.11672.pdf). We extend the code of [DELTR](https://github.com/MilkaLichtblau/DELTR-Experiments) and [FA\*IR](https://github.com/fair-search) to compare our work with these algorithms as baselines.
 
 
 ## Requirements
